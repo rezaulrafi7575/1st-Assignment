@@ -66,10 +66,12 @@
  
 .btn-1{
   width:229px ;
+  font-size: 16px;
+  font-weight: 500px;
   border-radius: 100px;
   background-color: #FFFFFF;
   color: #469165; 
-  padding: 8px 12px 8px 34px;
+  padding: 8px 12px 8px 12px;
   cursor: pointer;
 }
 .about-info{
@@ -149,16 +151,32 @@ cursor: pointer;
   padding-bottom: 44px;
  }
  .note-info-card{
-  max-width: 322px; 
+   max-width: 322px; 
+   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
    margin: 0 auto; 
-  justify-content: space-around;
+   justify-content: space-around;
+   gap: 24px;
    height: 300px
- }
+   
+   
+   }
  .notes-info{
    display: flex;
    max-width: 1360px; 
    margin: 0 auto; 
-   gap: 24px; 
+   
+ }
+ 
+ .image-info img{
+  max-width: 32px;
+  margin:14px;
+ }
+ .image-info{
+  background-color: #F95555;
+  max-width: 60px;
+  margin: 70px auto 16px;
+  border-radius: 50%;
+
  }
  .notes-info .note-info-card
  h3{
@@ -171,11 +189,14 @@ cursor: pointer;
  font-size: 16px; 
  line-height: 20px; 
  color: #627382; 
+ text-align: center;
+ max-width: 274px;
+ 
+margin: 0 auto;
 }
 
 #brain{
   padding: 120px;
- 
 }
 .brain-container{ 
   max-width: 1360px;
