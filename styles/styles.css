@@ -171,16 +171,13 @@ color: #627382;
 #brain{
   padding: 120px;
 }
-.brain-container{
-  /* width: 85%; */
+.brain-container{ 
   max-width: 1360px;
   display: flex;
   gap: 60px;
 }
-.image{
-  /* width: 37.5%; */
-  max-width: 600px;
-  /* gap: 60px; */
+.image{ 
+  max-width: 600px; 
 }
 .brain-info{
   max-width: 700px;
@@ -216,6 +213,52 @@ color: #627382;
     font-weight: 500px;
     line-height: 20px;
     color: #001931;
+  }
+
+  #access{
+    padding: 2px 120px 120px 120px;
+   
+
+  }
+  .access-container{
+    max-width: 1360px;
+   background-color: #F7F6F2;
+    padding: 80px 40px;
+   text-align: center;
+  }
+  .access-info h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+  }
+  .access-info p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+  }
+  .access-button button{
+    max-width: 194px;
+    display: flex;
+    margin: auto;
+    background-color: #469165;
+    padding: 16.5px 16px;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    gap: 10px;
+    height: 52px;
+  }
+  .access-button img{
+    width: 20px;
+  }
+  .button-info p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto;
+    padding-top: 16px;
   }
   
 
