@@ -61,16 +61,16 @@
 .hero{
   max-width: 1360px;
   margin: 0 auto;
-  text-align: center;
-  
+  text-align: center; 
 }
-
+ 
 .btn-1{
   width:229px ;
   border-radius: 100px;
   background-color: #FFFFFF;
   color: #469165; 
   padding: 8px 12px 8px 34px;
+  cursor: pointer;
 }
 .about-info{
   width: 770px;
@@ -101,6 +101,7 @@
   margin: 0 auto;
   padding-bottom: 189.5px;
     white-space: nowrap;
+  
 }
 
 .btn-2 .first{
@@ -114,6 +115,7 @@
   border: none;
   border-radius: 4px;
   align-items: center;
+  cursor: pointer;
 }
 .first img{
   padding: 0px 10px;  
@@ -125,6 +127,7 @@ padding: 16.5px 16px 16.5px 16px;
 color: #FFFFFF;
 background: rgba(255, 255, 255, 0.05);
 border-radius: 4px;
+cursor: pointer;
  } 
  #notes{
  text-align: center;
@@ -136,13 +139,8 @@ border-radius: 4px;
    font-size:48px;
   font-weight: bold;
   padding-bottom: 16px;
- text-transform: capitalize; 
-  display: inline-block;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
- 
-
+  padding-top: 50px; 
+  display: inline-block; 
  }
  .notes-container p{
    font-size: 16px;
@@ -256,6 +254,7 @@ border-radius: 4px;
     border: none;
     gap: 10px;
     height: 52px;
+    cursor: pointer;
   }
   .access-button img{
     width: 20px;
