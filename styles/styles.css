@@ -168,6 +168,54 @@ line-height: 20px;
 color: #627382;
 }
 
-  
+#brain{
+  padding: 120px;
+}
+.brain-container{
+  /* width: 85%; */
+  max-width: 1360px;
+  display: flex;
+  gap: 60px;
+}
+.image{
+  /* width: 37.5%; */
+  max-width: 600px;
+  /* gap: 60px; */
+}
+.brain-info{
+  max-width: 700px;
+  margin: 102px 0 102px 0;
+}
+.solution .heading{
+  font-size: 16px;
+  color: #469165;
+  line-height: 20px;
+  padding-bottom: 16px;
+  font-weight: 500;
+}
+.solution h2{
+  font-size: 48px;
+  font-weight: 600;
+  color: #001931;
+  padding-bottom: 16px;
+  height: 116px;
+}
+.solution p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  padding-bottom: 40px;
+}
+.note-info{
+  display: flex;
+  gap: 6px;
+  padding-bottom: 16px;
+}
+  .note-info p{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #001931;
+  }
   
 
